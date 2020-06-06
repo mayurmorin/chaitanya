@@ -2,22 +2,26 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assests/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assests/css/bootstrap/bootstrap.min.css">
     
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./assests/scripts/jquery-3.5.1.slim.min.js"></script>
+    <script src="./assests/scripts/popper.min.js"></script>
+    
+    <script src="./assests/scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="./assests/scripts/bootstrap/bootstrap.js"></script>
+
+    <script src='./assests/scripts/main.js' type='text/javascript'></script>
   
-    <script src='./src/js/main.js' type='text/javascript'></script>
   </head>
 
   <body onload="onLoad()">
     <div class="container-fluid">
-      <div class="row" style="background-image:url('./assests/images/neuralnet.jpg');background-repeat: inherit;
+      <div class="row" style="background-image:url('./assests/images/landing/neuralnet.jpg');background-repeat: inherit;
         background-size: auto;">
         <div class="col-md-2">
-          <img src="./assests/images/mayur_photo.png" class="w3-round" alt="Avatar" 
+          <img src="./assests/images/landing/mayur_photo.png" class="w3-round" alt="Avatar" 
         style="width:90%;height:90%">
         </div>
       
@@ -74,19 +78,19 @@
       </div>
       <div class="row">
         <div class="embed-responsive embed-responsive-16by9" id="blog">
-          <iframe class="embed-responsive-item" src="./src/html/blog.html" name="blogs" ></iframe>
+          <iframe class="embed-responsive-item" src="./src/views/blog.html" name="blogs" ></iframe>
         </div>
         <div class="embed-responsive embed-responsive-16by9" id="certificate">
-          <iframe class="embed-responsive-item" src="./src/html/certificates.html" name="certificates" ></iframe>
+          <iframe class="embed-responsive-item" src="./src/views/certificates.html" name="certificates" ></iframe>
         </div>
         <div class="embed-responsive embed-responsive-16by9" id="cv">
-          <iframe class="embed-responsive-item" src="./src/html/cv.html" name="cvs" ></iframe>
+          <iframe class="embed-responsive-item" src="./src/views/cv.html" name="cvs" ></iframe>
         </div>
         <div class="embed-responsive embed-responsive-16by9" id="nlp">
-          <iframe class="embed-responsive-item" src="./src/html/nlp.html" name="nlps" ></iframe>
+          <iframe class="embed-responsive-item" src="./src/views/nlp.html" name="nlps" ></iframe>
         </div>
         <div class="embed-responsive embed-responsive-16by9" id="ml">
-          <iframe class="embed-responsive-item" src="./src/html/ml.html" name="mls" ></iframe>
+          <iframe class="embed-responsive-item" src="./src/views/ml.html" name="mls" ></iframe>
         </div>
       </div>
     </div>
